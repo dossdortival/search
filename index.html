@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a href="images.html">Images Search</a>
+        <a href="advanced.html">Advanced Search</a>
+    </div>
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="search-box">
+                <input type="text" name="q" class="search-input">
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Google Search" class="search-button">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="search-button">
+            </div>
         </form>
-    </body>
+    </div>
+</body>
 </html>
